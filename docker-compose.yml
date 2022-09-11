@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  jsoncrack:
+    build: .
+    container_name: jsoncrack
+    restart: unless-stopped
+    ports:
+      - 8888:8080
