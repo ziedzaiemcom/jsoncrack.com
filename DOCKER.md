@@ -1,4 +1,4 @@
-# CyberChef 
+# JSON Crack (jsoncrack.com)
 
 Fork of https://github.com/AykutSarac/jsoncrack.com
 
