@@ -19,7 +19,17 @@ docker compose up -d
 ## Push to Docker Hub
 
 ```
-docker tag jsoncrackcom-jsoncrack:latest ziedzaiemcom/jsoncrack.com:0.0.1
 docker login -u ziedzaiemcom
-docker push ziedzaiemcom/jsoncrack.com:0.0.1
+docker tag jsoncrackcom-jsoncrack:latest ziedzaiemcom/jsoncrack.com:0.0.2
+docker push ziedzaiemcom/jsoncrack.com:0.0.2
 ```
+
+### Pull From Docker Hub
+
+```
+docker pull ziedzaiemcom/jsoncrack.com:0.0.2
+
+```
+
+Exposed Ports  :
+- 8080

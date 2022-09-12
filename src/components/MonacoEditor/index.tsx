@@ -9,7 +9,8 @@ import useGraph from "src/hooks/store/useGraph";
 
 loader.config({
   paths: {
-    vs: "https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.34.0/min/vs",
+    vs: "/monaco-editor-0.34.0/min/vs",
+    //vs: "https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.34.0/min/vs",
   },
 });
 
